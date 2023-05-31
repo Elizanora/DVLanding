@@ -1,0 +1,1404 @@
+body {
+      color: #131313;
+      background-color: #fff;
+      font-family: 'Museo Sans Cyrl 500', sans-serif;
+      font-size: 16px;
+}
+
+.container {
+      width: 1152px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.mini-container {
+      width: 733px;
+}
+
+/*HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER*/
+.header {
+      padding-top: 22px;
+      padding-bottom: 22px;
+}
+
+.header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+nav ul li {
+      display: inline-block;
+}
+
+nav li:not(:last-child) {
+      padding-right: 10px;
+}
+
+.home-content {
+      max-width: 773px;
+      padding: 170px 0;
+      text-align: center;
+      margin: 0 auto;
+}
+
+.home-heading {
+      font-size: 51px;
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      line-height: 54px;
+      margin: 0 auto 32px auto;
+}
+
+.home-text {
+      width: 640px;
+      margin: 0 auto;
+      padding-bottom: 32px;
+}
+
+.home-white-btn {
+      display: inline-block;
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      text-transform: uppercase;
+      height: 45px;
+      line-height: 45px;
+      padding-left: 24px;
+      padding-right: 24px;
+      border-radius: 4px;
+      border: 1px solid #131313;
+      font-size: 12px;
+      transition: opacity 0.2s ease;
+      color: #131313;
+      letter-spacing: 1px;
+      margin-right: 25px;
+
+}
+
+.btn {
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      height: 45px;
+      line-height: 45px;
+      padding-left: 24px;
+      padding-right: 24px;
+      border-radius: 4px;
+      font-size: 12px;
+      transition: opacity 0.2s ease;
+      color: #fff;
+      background-color: #DE0000;
+      letter-spacing: 1px;
+}
+
+.home-orange-btn .btn {
+      display: inline-block;
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      height: 45px;
+      line-height: 45px;
+      padding-left: 24px;
+      padding-right: 24px;
+      border-radius: 4px;
+      font-size: 12px;
+      transition: opacity 0.2s ease;
+      color: #fff;
+      background-color: #DE0000;
+      letter-spacing: 1px;
+}
+
+.partners {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+}
+
+.partners img {
+      max-width: 100%;
+      height: 25px;
+}
+
+.tutorials-content {
+      margin-bottom: 60px;
+}
+
+.tutorials-heading {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 38px;
+      padding-top: 100px;
+      padding-bottom: 30px;
+}
+
+.tutorials-blocks {
+      display: grid;
+      grid-template-columns: 58% 35%;
+      gap: 8px 100px;
+}
+
+.tutorials-blocks h2 {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 15px;
+}
+
+.tutorials-block-1 h2 {
+      padding-top: 20px;
+}
+
+.tutorials-block-1 img {
+      max-width: 100%;
+}
+
+.tutorials-block-1 h3 {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 30px;
+}
+
+.tutorials-block-1-text {
+      display: grid;
+      gap: 20px;
+}
+
+.tutorials-block-1 p {
+      font-family: 'Museo Sans Cyrl 500', sans-serif;
+      font-size: 15px;
+      opacity: 70%;
+      line-height: 25px;
+}
+
+.tutorials-block-2 h2,
+.tutorials-block-3 h2,
+.tutorials-block-4 h2,
+.tutorials-block-5 h2 {
+      padding-bottom: 20px;
+}
+
+.tutorials-block-2 h3,
+.tutorials-block-3 h3,
+.tutorials-block-4 h3,
+.tutorials-block-5 h3 {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 18px;
+}
+
+.tutorials-block-2,
+.tutorials-block-3,
+.tutorials-block-4 {
+      border-bottom: 1px solid rgb(237, 236, 236);
+}
+
+.tutorials-block-1 {
+      grid-row: 1/4;
+      height: 420px;
+      width: 650px;
+}
+
+.tutorials-block-2-text,
+.tutorials-block-3-text,
+.tutorials-block-4-text,
+.tutorials-block-5-text {
+      grid-column: 2/2;
+}
+
+.tutorials-block-2,
+.tutorials-block-3,
+.tutorials-block-4,
+.tutorials-block-5 {
+      display: grid;
+      gap: 16px;
+      height: 145px;
+      max-width: 400px;
+}
+
+.tutorials-block-3,
+.tutorials-block-4,
+.tutorials-block-5 {
+      padding-top: 15px;
+}
+
+
+.tutorials-block-2 img,
+.tutorials-block-3 img,
+.tutorials-block-4 img,
+.tutorials-block-5 img {
+      max-width: 120px;
+}
+
+.see-all {
+      text-align: right;
+      padding-right: 304px;
+}
+
+.recent-episodes-content {
+      padding-top: 30px;
+}
+
+.recent-episodes-heading {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 38px;
+      padding-bottom: 24px;
+}
+
+.recent-episodes-blocks {
+      display: grid;
+      grid-template-columns: 200px 200px 200px 390px;
+      gap: 30px 25px;
+}
+
+.recent-episodes-block-1,
+.recent-episodes-block-2,
+.recent-episodes-block-3 {
+      height: 525px;
+      grid-row: 1/7;
+}
+
+.date {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 14px;
+      padding-top: 16px;
+}
+
+.recent-episodes-block-1-text,
+.recent-episodes-block-2-text,
+.recent-episodes-block-3-text {
+      display: grid;
+      gap: 16px;
+}
+
+.recent-episodes-block-1-text h3,
+.recent-episodes-block-2-text h3,
+.recent-episodes-block-3-text h3 {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 19px;
+}
+
+.recent-episodes-block-1-text p,
+.recent-episodes-block-2-text p,
+.recent-episodes-block-3-text p {
+      font-family: 'Museo Sans Cyrl 500', sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+}
+
+.recent-episodes-block-1 img,
+.recent-episodes-block-2 img,
+.recent-episodes-block-3 img {
+      max-width: 100%;
+}
+
+.more-episodes {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 19px;
+}
+
+.more-episodes,
+.recent-episodes-block-4,
+.recent-episodes-block-5,
+.recent-episodes-block-6,
+.recent-episodes-block-7,
+.recent-episodes-block-8 {
+      margin-left: 40px;
+}
+
+.recent-episodes-block-4,
+.recent-episodes-block-5,
+.recent-episodes-block-6,
+.recent-episodes-block-7,
+.recent-episodes-block-8 {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 16px;
+      border-bottom: 1px solid rgb(237, 236, 236);
+}
+
+.see-all-2 {
+      text-align: right;
+      padding-right: 340px;
+      padding-top: 10px;
+}
+
+.join-word-content {
+      display: grid;
+      grid-template-columns: 540px 400px;
+      gap: 125px;
+      padding-top: 60px;
+}
+
+.join {
+      background: #F7F7F7;
+      padding: 25px 64px;
+}
+
+.join-content header {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 25px;
+      padding-bottom: 20px;
+}
+
+.join-content p {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 14px;
+      padding-bottom: 25px;
+}
+
+.field {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 8px;
+}
+
+.field input {
+      border: 1px solid #131313;
+      height: 40px;
+      width: 350px;
+}
+
+.field label {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 15px;
+      padding-bottom: 12px;
+}
+
+.field-btn {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+}
+
+.text-bottom {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 12px;
+}
+
+.policy-span {
+      text-decoration: underline;
+}
+
+.word {
+      padding: 50px 0;
+}
+
+.word-heading {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 25px;
+      padding-bottom: 12px;
+}
+
+.word-text {
+      font-size: 15px;
+      padding-bottom: 28px;
+      line-height: 25px;
+}
+
+.read-discover {
+      display: flex;
+      padding-right: 110px;
+      justify-content: space-between;
+}
+
+.read .discover {
+      font-size: 17px;
+}
+
+.case-study-content {
+      display: grid;
+      grid-template-columns: 540px 320px;
+      gap: 115px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.case-study-heading {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 38px;
+      padding-bottom: 25px;
+}
+
+.lorem-text-first {
+      font-size: 18px;
+      line-height: 30px;
+      padding-bottom: 20px;
+}
+
+.lorem-text-second {
+      font-size: 14px;
+      line-height: 24px;
+      padding-bottom: 35px;
+}
+
+.lorem-digits {
+      display: grid;
+      padding-right: 130px;
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.digit-300,
+.digit-60 {
+      font-size: 50px;
+      padding-bottom: 10px;
+}
+
+.lorem-p {
+      font-size: 19px;
+}
+
+.testimonial-text {
+      font-size: 19px;
+      line-height: 32px;
+      padding-bottom: 32px;
+}
+
+.logo {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-right: 60px;
+}
+
+.logo p {
+      padding-top: 30px;
+}
+
+.about {
+      padding-bottom: 100px;
+}
+
+.about-content {
+      padding-bottom: 48px;
+      display: grid;
+      grid-template-columns: 540px 430px;
+      gap: 115px;
+}
+
+.about-img img {
+      max-width: 103%;
+}
+
+.about-text-heading {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 38px;
+      padding-bottom: 25px;
+}
+
+.about-text-1 {
+      font-family: 'Museo Sans Cyrl 500', sans-serif;
+
+      line-height: 30px;
+      padding-bottom: 30px;
+      font-size: 16px;
+}
+
+.about-text-2 {
+      line-height: 30px;
+      font-size: 16px;
+}
+
+.about-brands {
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+      opacity: 70%;
+}
+
+.annikka {
+      padding-bottom: 100px;
+}
+
+.annikka-content {
+      max-width: 960px;
+      margin: 0 auto;
+}
+
+.annikka-heading {
+      width: 650px;
+      font-size: 32px;
+      padding-bottom: 25px;
+      line-height: 44px;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 56px;
+}
+
+.annikka-arrow-left img,
+.annikka-arrow-right img {
+      max-width: 100%;
+      opacity: 60%;
+}
+
+.annikka-arrow-left,
+.annikka-arrow-right {
+      display: flex;
+}
+
+.annikka-container {
+      background-color: #F7F7F7;
+      display: grid;
+      grid-template-columns: 312px 450px;
+      gap: 40px;
+}
+
+.annikka-big-container {
+      display: grid;
+      grid-template-columns: 60px 800px 60px;
+      gap: 20px;
+}
+
+.annikka-img img {
+      max-width: 100%;
+}
+
+.annikka-text {
+      padding-top: 45px;
+      padding-right: 40px;
+
+}
+
+.annikka-main-text {
+      line-height: 29px;
+      padding-bottom: 70px;
+}
+
+.annikka-bottom-text {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      line-height: 26px;
+}
+
+.free-consultation {
+      padding-bottom: 100px;
+}
+
+.free-content {
+      display: grid;
+      grid-template-columns: 430px 400px;
+      gap: 236px;
+}
+
+.free-heading {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 38px;
+      padding-bottom: 25px;
+}
+
+.free-p-1 {
+      font-size: 14px;
+      line-height: 24px;
+      padding-bottom: 30px;
+}
+
+.free-p-2 {
+      font-size: 14px;
+      line-height: 24px;
+      padding-bottom: 60px;
+}
+
+.free-logo img {
+      max-width: 100%;
+}
+
+.free-logo {
+      display: grid;
+      grid-template-columns: 150px 240px;
+      gap: 40px;
+}
+
+.free-info h1 {
+      font-size: 14px;
+      padding-bottom: 20px;
+      line-height: 24px;
+}
+
+.free-info p {
+      font-family: 'Museo Sans Cyrl 700', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+}
+
+.free-form * :not(:last-child) {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+}
+
+.free-form label {
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      font-size: 15px;
+      padding-bottom: 12px;
+}
+
+.action input {
+      border: 1px solid #131313;
+      height: 40px;
+      width: 400px;
+}
+
+.action {
+      padding-top: 40px;
+}
+
+.free-text textarea {
+      height: 125px;
+      border: 1px solid;
+}
+
+.footer {
+      background-color: #131313;
+      padding: 55px 0;
+}
+
+.footer-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 350px;
+}
+
+.footer-rights {
+      color: #fff;
+      text-align: end;
+      font-size: 12px;
+      opacity: 60%;
+}
+
+.info {
+      display: grid;
+      grid-template-columns: 190px 100px 100px;
+}
+
+.footer-logo img {
+      max-width: 100%;
+}
+
+.footer-blocks {
+      display: grid;
+      grid-template-columns: 100px 100px;
+      gap: 100px;
+}
+
+.footer-block-1,
+.footer-block-2 {
+      padding-top: 5px;
+      line-height: 30px;
+}
+
+.footer a {
+      color: #fff;
+}
+
+.footer a:hover {
+      color: #adabb7;
+}
+
+.social {
+      display: flex;
+      justify-content: space-between;
+}
+
+/*Adaptive features*/
+/*Adaptive features*/
+/*Adaptive features*/
+/*Adaptive features*/
+/*Adaptive features*/
+/*Adaptive features*/
+/*Adaptive features*/
+
+.none {
+      display: none;
+}
+
+@media (max-width:1262px) {
+
+      .tutorials-block-2 h3,
+      .tutorials-block-3 h3,
+      .tutorials-block-4 h3,
+      .tutorials-block-5 h3 {
+            font-size: 15px;
+      }
+
+      .blocks-blocks {
+            max-width: 350px;
+      }
+
+      .see-all {
+            padding-right: 346px;
+      }
+
+      .footer-container {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 125px;
+      }
+
+      .footer-blocks {
+            grid-template-columns: 83% 50%;
+            gap: unset;
+      }
+}
+
+
+@media (max-width:1199px) {
+      .container {
+            padding-left: 10%;
+            padding-right: 10%;
+      }
+
+      .header-logo img {
+            max-width: 60%;
+      }
+
+      .header-nav ul li img {
+            max-width: 70%;
+      }
+
+      .see-all {
+            padding-right: 260px;
+      }
+
+      .tutorials-block-1 {
+            width: 551px;
+      }
+
+      .see-all {
+            padding-right: unset;
+      }
+
+      .recent-episodes-blocks {
+            grid-template-columns: 150px 150px 150px 330px;
+      }
+
+      .see-all-2 {
+            padding-right: unset;
+      }
+
+      .join-word-content {
+            grid-template-columns: 440px 400px;
+            gap: 50px;
+      }
+
+      .field input {
+            width: unset;
+      }
+
+      .case-study-content {
+            grid-template-columns: 440px 290px;
+            gap: 50px;
+      }
+
+      .about-content {
+            grid-template-columns: 440px 330px;
+            gap: 80px;
+      }
+
+      .about-text-1 {
+            padding-bottom: 20px;
+      }
+
+      .about-text-heading {
+            padding-bottom: 10px;
+      }
+
+      .annikka-container {
+            grid-template-columns: 280px 350px;
+            gap: 40px;
+      }
+
+      .annikka-big-container {
+            grid-template-columns: 60px 700px 60px;
+      }
+
+      .annikka-main-text {
+            line-height: 25px;
+            padding-bottom: 20px;
+      }
+
+      .annikka-text {
+            padding-top: unset;
+      }
+
+      .free-content {
+            grid-template-columns: 400px 400px;
+            gap: 80px;
+      }
+}
+
+@media (max-width: 1151px) {
+      .container {
+            max-width: 100%;
+      }
+
+      .tutorials-block-1 {
+            width: 490px;
+      }
+}
+
+@media (max-width:1050px) {
+      .join-word-content {
+            grid-template-columns: 400px 300px;
+            gap: 60px;
+      }
+
+      .read-discover p {
+            font-size: 13px;
+      }
+
+      .read-discover {
+            padding-right: 0;
+
+      }
+
+      .free-content {
+            grid-template-columns: 332px 300px;
+            gap: 55px;
+      }
+
+      .action input {
+            width: 100%;
+      }
+}
+
+@media (max-width:991px) {
+      .home-heading {
+            font-size: 35px;
+            line-height: 45px;
+      }
+
+      .home-text {
+            font-size: 14px;
+            width: 100%;
+            line-height: 20px;
+      }
+
+      .tutorials-block-2 h3,
+      .tutorials-block-3 h3,
+      .tutorials-block-4 h3,
+      .tutorials-block-5 h3 {
+            display: none;
+      }
+
+      .blocks-blocks {
+            display: grid;
+            max-width: 145px;
+            margin: 0 auto;
+            gap: 0 60px;
+      }
+
+      .tutorials-block-2-text,
+      .tutorials-block-3-text,
+      .tutorials-block-4-text,
+      .tutorials-block-5-text {
+            grid-column: 1/1;
+      }
+
+      .tutorials-block-1 {
+            width: 530px;
+      }
+
+      .tutorials-block-2,
+      .tutorials-block-3,
+      .tutorials-block-4,
+      .tutorials-block-5 {
+            height: 150px;
+            gap: 1px;
+            padding-top: unset;
+      }
+
+      .recent-episodes-blocks {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 100px 25px;
+      }
+
+      .more-episodes,
+      .recent-episodes-block-4,
+      .recent-episodes-block-5,
+      .recent-episodes-block-6,
+      .recent-episodes-block-7,
+      .recent-episodes-block-8 {
+            margin-left: unset;
+            line-height: 25px;
+      }
+
+      .see-all-2 {
+            padding-right: 0;
+      }
+
+      .join-word-content {
+            grid-template-columns: 100%;
+            gap: 5px;
+      }
+
+      .join {
+            padding: 15px 24px;
+      }
+
+      .field input {
+            width: 500px;
+      }
+
+      .field {
+            padding-bottom: 20px;
+      }
+
+      .case-study-content {
+            grid-template-columns: 340px 290px;
+      }
+
+      .lorem-text-first {
+            font-size: 15px;
+            line-height: 25px;
+      }
+
+      .testimonial-text {
+            font-size: 15px;
+            line-height: 25px;
+      }
+
+      .case-study-heading {
+            font-size: 30px;
+      }
+
+      .logo img {
+            max-width: 80px;
+      }
+
+      .logo {
+            padding-right: 80px;
+      }
+
+      .digit-300,
+      .digit-60 {
+            font-size: 40px;
+      }
+
+      .lorem-p {
+            font-size: 15px;
+      }
+
+      .about-content {
+            grid-template-columns: 340px 260px;
+            gap: 60px;
+      }
+
+      .about-text-1 {
+            line-height: 25px;
+            font-size: 14px;
+      }
+
+      .about-text-2 {
+            line-height: 25px;
+            font-size: 14px;
+      }
+
+      .about-text-heading {
+            font-size: 30px;
+      }
+
+      .annikka-container {
+            grid-template-columns: 240px 350px;
+      }
+
+      .annikka-big-container {
+            grid-template-columns: 40px 595px 40px;
+      }
+
+      .free-content {
+            grid-template-columns: 100%;
+            gap: 45px;
+      }
+
+      .free-form {
+            padding-right: 10%;
+            padding-left: 10%;
+      }
+
+      .footer-container {
+            column-gap: 0px;
+      }
+
+      .case-study-content {
+            padding-top: 0;
+      }
+}
+
+@media(max-width:835px) {
+      .tutorials-blocks {
+            display: grid;
+            grid-template-columns: 100%;
+      }
+
+      .tutorials-block-2,
+      .tutorials-block-3,
+      .tutorials-block-4,
+      .tutorials-block-5 {
+            grid-column: 1/1;
+            height: unset;
+            margin: 0 auto;
+            max-width: 600px;
+            gap: 10px;
+      }
+
+      .tutorials-block-1 {
+            margin: 0 auto;
+      }
+
+      .tutorials-block-2 {
+            padding-top: 130px;
+      }
+
+      .tutorials-block-2-text,
+      .tutorials-block-3-text,
+      .tutorials-block-4-text,
+      .tutorials-block-5-text {
+            width: 390px;
+            grid-column: 2/2;
+      }
+
+      .blocks-blocks {
+            display: grid;
+            row-gap: 25px;
+            max-width: 600px;
+      }
+
+      .see-all {
+            padding-right: unset;
+      }
+
+      .tutorials-block-2 h3,
+      .tutorials-block-3 h3,
+      .tutorials-block-4 h3,
+      .tutorials-block-5 h3 {
+            display: inline-block;
+      }
+
+      .tutorials-heading {
+            display: flex;
+            justify-content: center;
+      }
+
+      .case-study-content {
+            grid-template-columns: 100%;
+      }
+
+      .logo {
+            padding-right: unset;
+      }
+
+      .logo {
+            grid-template-columns: 100px 106px;
+      }
+
+      .about-content {
+            grid-template-columns: 100%;
+            gap: 50px
+      }
+
+      .annikka-container {
+            grid-template-columns: 100%;
+      }
+
+      .annikka-big-container {
+            grid-template-columns: 100%;
+      }
+
+      .annikka-text {
+            padding-top: unset;
+            padding-right: 10px;
+            padding-left: 10px;
+      }
+
+      .annikka-img {
+            justify-content: center;
+            display: grid;
+      }
+
+      .annikka-heading {
+            width: 100%;
+            font-size: 23px;
+            line-height: 35px;
+            text-align: center;
+      }
+
+      .annikka-arrow-left,
+      .annikka-arrow-right {
+            display: none;
+      }
+
+      .info {
+            grid-template-columns: 33% 33% 33%;
+      }
+}
+
+@media (max-width:696px) {
+      .field input {
+            width: unset;
+      }
+
+      .social {
+            display: grid;
+            grid-template-columns: 100%;
+      }
+
+      .footer-rights {
+            text-align: center;
+            padding-top: 30px;
+      }
+
+      .footer-block-1,
+      .footer-block-2 {
+            padding-top: unset;
+            line-height: 20px;
+      }
+}
+
+@media (max-width:650px) {
+      .header-nav ul li:not(:last-child) {
+            display: none;
+      }
+
+      .home-heading {
+            font-size: 30px;
+            line-height: 40px;
+      }
+
+      .home-content {
+            padding: 130px 0;
+      }
+
+      .tutorials-block-1 {
+            width: 100%;
+      }
+
+      .tutorials-block-2-text,
+      .tutorials-block-3-text,
+      .tutorials-block-4-text,
+      .tutorials-block-5-text {
+            width: 250px;
+      }
+
+      .recent-episodes-block-1,
+      .recent-episodes-block-2,
+      .recent-episodes-block-3 {
+            display: grid;
+            grid-column: 1/2;
+            height: unset;
+            gap: 20px 15px;
+      }
+
+      .recent-episodes-block-2 {
+            grid-row: 4/6;
+      }
+
+      .recent-episodes-block-3 {
+            grid-row: 6/6;
+      }
+
+      .recent-episodes-blocks {
+            grid-template-columns: 100%;
+            gap: 20px 30px;
+      }
+
+      .recent-episodes-block-1 p,
+      .recent-episodes-block-2 p,
+      .recent-episodes-block-3 p {
+            display: none;
+      }
+
+      .recent-episodes-block-4 h4,
+      .recent-episodes-block-5 h4,
+      .recent-episodes-block-6 h4,
+      .recent-episodes-block-7 h4,
+      .recent-episodes-block-8 h4 {
+            font-size: 14px;
+      }
+
+      .recent-episodes-block-1-text h3,
+      .recent-episodes-block-2-text h3,
+      .recent-episodes-block-3-text h3 {
+            font-size: 16px;
+      }
+
+      .date {
+            padding-top: 8px;
+      }
+
+      .recent-episodes-block-1-text,
+      .recent-episodes-block-2-text,
+      .recent-episodes-block-3-text {
+            grid-column: 2/2;
+            gap: 5px;
+      }
+
+      .more-episodes,
+      .recent-episodes-block-4,
+      .recent-episodes-block-5,
+      .recent-episodes-block-6,
+      .recent-episodes-block-7,
+      .recent-episodes-block-8 {
+            line-height: 20px;
+      }
+
+      .recent-episodes-block-1 {
+            grid-row: 1/1;
+      }
+
+      .recent-episodes-block-2 {
+            grid-row: 2/2;
+      }
+
+      .recent-episodes-block-3 {
+            grid-row: 3/3;
+      }
+
+      .recent-episodes-block-1 img,
+      .recent-episodes-block-2 img,
+      .recent-episodes-block-3 img {
+            max-width: 120px;
+      }
+
+      .recent-episodes-heading {
+            font-size: 30px;
+      }
+
+      .more-episodes {
+            padding-top: 50px;
+      }
+
+      .join-content header {
+            font-size: 20px;
+      }
+
+      .join-content p {
+            font-size: 13px;
+      }
+
+      .field input {
+            height: 30px;
+            width: unset;
+      }
+
+      .word-heading {
+            font-size: 20px;
+      }
+
+      .word-text {
+            font-size: 13px;
+            line-height: 20px;
+      }
+
+      .read-discover p {
+            font-size: 12px;
+      }
+
+      .read-discover {
+            padding-right: 0;
+      }
+
+      .lorem-digits {
+            padding-right: unset;
+      }
+
+      .footer-blocks {
+            grid-template-columns: 100%;
+      }
+
+      .footer-container p {
+            padding-top: 40px;
+      }
+}
+
+@media (max-width:473px) {
+
+      .home-btn {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .home-white-btn {
+            margin-right: unset;
+            margin-bottom: 10px;
+      }
+
+      .partners img {
+            height: 15px;
+      }
+
+      .tutorials-heading {
+            font-size: 25px;
+      }
+
+      .tutorials-block-1-text h3 {
+            font-size: 25px;
+            text-align: center;
+      }
+
+      .tutorials-block-1 p {
+            font-size: 14px;
+            line-height: 20px;
+      }
+
+      .tutorials-block-2 {
+            padding-top: 30px;
+      }
+
+      .tutorials-block-2 h3,
+      .tutorials-block-3 h3,
+      .tutorials-block-4 h3,
+      .tutorials-block-5 h3 {
+            font-size: 14px;
+            line-height: 20px;
+      }
+
+      .tutorials-block-2-text,
+      .tutorials-block-3-text,
+      .tutorials-block-4-text,
+      .tutorials-block-5-text {
+            width: 130px;
+      }
+
+      .see-all {
+            padding-top: 20px;
+      }
+
+      .recent-episodes-block-1-text h3,
+      .recent-episodes-block-2-text h3,
+      .recent-episodes-block-3-text h3 {
+            font-size: 13px;
+      }
+
+      .date {
+            padding-top: 0;
+      }
+
+      .free-heading {
+            font-size: 25px;
+      }
+
+      .free-p-1 {
+            line-height: 22px;
+            padding-bottom: 20px;
+      }
+
+      .free-p-2 {
+            line-height: 22px;
+      }
+
+      .free-logo {
+            grid-template-columns: 40% 60%;
+            gap: 20px;
+      }
+
+      .free-info h1 {
+            padding-bottom: 10px;
+            line-height: 16px;
+      }
+
+      .free-form {
+            padding-right: 1%;
+            padding-left: 1%;
+      }
+
+      .free-info p {
+            font-size: 13px;
+      }
+}
+
+@media (max-width:400px) {
+      .home-heading {
+            font-size: 25px;
+            line-height: 30px;
+      }
+}
